@@ -42,5 +42,5 @@ modals folder => band-test\src\app\modals
 type folder => band-test\src\app\type
 - api.type.ts => collect type of api from band protocal
 - http.type.ts => collect http method type
-- 
+
 
