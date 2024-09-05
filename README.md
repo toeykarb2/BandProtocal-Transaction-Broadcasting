@@ -13,24 +13,22 @@ pnpm dev
 # or
 bun dev
 ```
+CSS => tailwindcss as a CSS framework packed
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Transaction Broadcasting and Monitoring Client
 
-## Learn More
+**Description:**
+Your task is to develop a module/class in a programming language of your choice that interacts with an HTTP
+server. This client module will enable the broadcasting of a transaction and subsequently monitor its status
+until finalization.
 
-To learn more about Next.js, take a look at the following resources:
+**Requirements:**
+Create a client module that is designed to be integrated into another application, with the following capabilities:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
