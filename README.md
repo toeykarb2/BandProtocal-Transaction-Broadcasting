@@ -23,6 +23,24 @@ until finalization.
 **Requirements:**
 Create a client module that is designed to be integrated into another application, with the following capabilities:
 
+## File structure
 
+api folder => band-test\src\app\api
+- transaction.ts => RESTful api to get data from transaction api
+- broadcast.ts => RESTful api to post data to broadcast api
 
+component folder => band-test\src\app\component
+- Container.jsx => mask page for flex screen
+- inputForm.jsx => input form component
+
+Constants folder => band-test\src\app\constants
+- api.ts => collect api path
+
+modals folder => band-test\src\app\modals
+- inputFormType => collect type of inputform component
+
+type folder => band-test\src\app\type
+- api.type.ts => collect type of api from band protocal
+- http.type.ts => collect http method type
+- 
 
